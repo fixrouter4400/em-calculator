@@ -9,18 +9,17 @@ class App extends Component {
   state = {
     metals: [
       { col1: 'M1', col2: 'M1', arg1: 1.104, arg2: 0.01, input: '' },
-      { col1: 'Mx', col2: 'M2-M5', arg1: 2.686, arg2: 0.01, input: '' },
+      { col1: 'Mx', col2: 'M2-M5', arg1: 1.196, arg2: 0.01, input: '' },
       { col1: 'Mz', col2: 'M6', arg1: 8.096, arg2: 0.02, input: '' },
-      { col1: 'Mr', col2: 'M7', arg1: 11.316, arg2: 0.02, input: '' },
-      { col1: 'Mu', col2: 'UTRDL', arg1: 31.08, arg2: 0.02, input: '' }
+      { col1: 'Mu', col2: 'M7', arg1: 31.08, arg2: 0.02, input: '' },
+      { col1: 'UTRDL', col2: 'AP', arg1: 5.21, arg2: 0, input: '' }
     ],
     via: [
       { col1: 'Contact', col2: 'Contact', arg1: 0.208, arg2: 0, input: '' },
-      { col1: 'VIAx', col2: 'Via1', arg1: 0.072, arg2: 0, input: '' },
-      { col1: 'VIAy', col2: 'Via2-4', arg1: 0.322, arg2: 0, input: '' },
+      { col1: 'VIAx', col2: 'Via1-4', arg1: 0.072, arg2: 0, input: '' },
       { col1: 'VIAz', col2: 'Via5', arg1: 3.077, arg2: 0, input: '' },
-      { col1: 'VIAr', col2: 'Via6', arg1: 5.432, arg2: 0, input: '' },
-      { col1: 'VIAu', col2: 'ViaAP', arg1: 3.077, arg2: 0, input: '' }
+      { col1: 'VIAu', col2: 'Via6', arg1: 3.077, arg2: 0, input: '' },
+      { col1: 'RV', col2: 'RV', arg1: 5.4, arg2: 0, input: '' }
     ]
   };
   handleMetalOnChange = (val, index) => {
