@@ -56,13 +56,13 @@ class App extends Component {
           <Metals
             metalsList={this.state.via}
             handleMetalOnChange={this.handleViaOnChange}
-            headers={[ '', 'Cont/Via', 'Via Count', 'Imax(mA)' ]}
+            headers={[ 'Cont/Via', 'Cont/Via', 'Via Count', 'Imax(mA)' ]}
           />
         </Col>
         <Col xs={12}>
           <p>Note</p>
-          <p>For Metals just input Width size in the column(um)</p>
-          <p>For Via count just input number in the Via Count column</p>
+          <p>For Metals input Width size in the column Width(um)</p>
+          <p>For Via's input number in the column Via Count</p>
         </Col>
       </Grid>
     );
